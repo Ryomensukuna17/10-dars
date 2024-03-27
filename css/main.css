@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main{
+  font-family: "Raleway", sans-serif;;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header_top {
+  background-color: #111;
+  padding: 12px 0;
+}
+
+.main-header_social_icon {
+  color: #fff;
+}
+
+.main-header_icons {
+  display: flex;
+  gap: 25px;
+}
+
+.main-header_block {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.tel {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.tel::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/phone.svg);
+}
+
+.main-header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header_top_list {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.main-header_top_list:nth-child(2)::before {
+  content: "";
+  width: 16px;
+  height: 11px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/flag.svg);
+  margin-right: 5px;
+}
+
+.main-header_content{
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header_title{
+  display: flex;
+  gap: 45px;
+}
+
+.main-header_item{
+  font-weight: 600;
+font-size: 14px;
+line-height: 214%;
+text-transform: uppercase;
+text-align: center;
+color: #111;
+}
+
+.span{
+  color: #5a5ac9;
+}
+
+.main-header_button::before{
+  content: "";
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/seacrh.svg);
+}
+
+.hero{
+background-repeat: no-repeat;
+background-image: url(../img/section\ \(1\).png);
+background-size: cover;
+}
+
+.hero_block{
+  padding-top: 160px;
+  padding-bottom: 250px;
+}
+
+.hero_text{
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.hero_title{
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #111;
+}
+
+.hero_button{
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  padding: 16px 31px;
+  margin-top: 45px;
+}
+
+.hero_content{
+  width: 1296px;
+}
+
+.hero_dots{
+display: flex;
+justify-content: center;
+padding-bottom: 30px;
+gap: 10px;
+}
+
+.hero_item{
+border-radius: 7px;
+width: 14px;
+height: 14px;
+background: #111;
+}
+
+.active{
+  background-color: #3c1a5b;
+}
+
+.slider_title{
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.slider_title2{
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.slider_title3{
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.slider_title4{
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.slider_text{
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.slider_text2{
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.slider_text3{
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.slider_text4{
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.slider_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 18px;
+}
+
+.slider_block{
+  background-color: #5a5ac9;;
+}
+.slider1{
+  margin-left: 46px;
+  display: flex;
+  gap: 16px;
+}
+
+.slider2{
+  display: flex;
+  gap: 16px;
+}
+.slider3{
+  display: flex;
+  gap: 16px;
+}
+.slider4{
+  margin-right: 46px;
+  display: flex;
+  gap: 16px;
+}
+
+.slider1::before{
+  content: "";
+  width: 56px;
+  height: 45px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/truck.png);
+}
+
+.slider2::before{
+  content: "";
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/3.png.png);
+}
+
+.slider3::before{
+  content: "";
+  width: 35px;
+  height: 45px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/4.png.png);
+}
+
+.slider4::before{
+  content: "";
+  width: 50px;
+  height: 45px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../img/5.png.png);
+}
+
+.slider{
+  padding-top: 208px;
+}
